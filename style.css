@@ -1,7 +1,8 @@
 nav a{
     text-decoration: none;
-    color: chartreuse;
+    color: darkcyan;
     transition: 0.5s;
+
 }
 
 nav a:hover {
@@ -9,4 +10,11 @@ nav a:hover {
     background-color:aquamarine;
      font-weight:bold;
      font-style: oblique;
+}
+
+nav{
+    background-color: black;
+    overflow: hidden;
+    padding: 15px 17px;
+    font-size: large;
 }

@@ -13,8 +13,37 @@ nav a:hover {
 }
 
 nav{
-    background-color: greenyellow;
+    background-color: black;
     overflow: hidden;
     padding: 15px 17px;
     font-size: large;
+}
+.buttonmain1 {
+    background-color: antiquewhite;
+    width: 140px;
+    height: 40px;
+    border: 0px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: bisque;
+    transition-duration: 0.5s;
+    padding: 0cm;
+    margin: 0px;
+}
+.buttonmain2:hover {
+    cursor: default;
+    background-color: darkblue;
+    color: antiquewhite;
+    padding: 0px;
+    margin: 0px;
+}
+.navmain {
+    background-color: cadetblue;
+}
+.activeindex {
+    background-color: darkblue;
+    color: bisque;
+    cursor: default;
+    padding: 0px;
+    margin: 0px;
 }

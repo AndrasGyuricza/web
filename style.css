@@ -57,12 +57,30 @@ body{
     padding: 5px;
     color: antiquewhite;
 }
-
-.div1{
+#div3 {
+    width: 300px;
+    transition: 3s;
     float: left;
-    
+    margin: 40px;
 }
-
-.div1:hover {
-    transform: scale(1,2 1,2);
+.evszakkepek {
+    border: #fcba03 solid 4px;
+    border-radius: 4px;
+    width: 300px;
+}
+#div3:hover {
+    transform: scale(1.2, 1.2);
+}
+.evszakP {
+    text-align: center;
+    font-size: larger;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
 }

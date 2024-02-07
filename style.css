@@ -54,15 +54,15 @@ body{
 
 
 #div3 {
-    width: 220px;
+    width: 250px;
     transition: 3s;
     float: left;
     margin: 20px;
 }
 .evszakkepek {
-    border: #fcba03 solid 4px;
+    border: darkblue solid 4px;
     border-radius: 4px;
-    width: 220px;
+    width: 250px;
 }
 #div3:hover {
     transform: scale(1.2, 1.2);

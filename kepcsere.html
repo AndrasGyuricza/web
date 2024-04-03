@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kepcsere</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body class="bodymain">
+    <header class="header">
+        <h1>Gyuricza Andras oldala</h1>
+        <p class="p1"></p>
+        <hr class="navmain1">
+    </header>
+    <br>
+    <nav class="navmain1">
+        <div class="div1">
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='index.html';">Főoldal</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='orarend.html';">Órarend</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='lista.html';">Lista</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='keplink';">Képlink</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='urlap.html';">Űrlap</button>
+            <button class="buttonmain1 buttonmain2" onclick="window.location.href='evszakok.html';">Evszakok</button>
+            <button class="activeindex buttonmain1" onclick="window.location.href='kepcsere.html';">Kepcsere</button>
+        </div>
+    </nav>        
+    <div class="image-container" onclick="swapImages()">
+        <img id="Alapkep" src="tél.jpg" alt="Alapkep">
+    </div>
+    
+    <div class="image-container" onclick="swapImages()">
+        <img id="Cserekep" src="tavasz.jpg" alt="Cserekep" style="display: none;">
+    </div>
+    
+    <script>
+    function swapImages() {
+        var Alapkep = document.getElementById('Alapkep');
+        var Cserekep = document.getElementById('Cserekep');
+    
+        if (Alapkep.style.display === 'none') {
+            Alapkep.style.display = 'inline-block';
+            Cserekep.style.display = 'none';
+        } else {
+            Alapkep.style.display = 'none';
+            Cserekep.style.display = 'inline-block';
+        }
+    }
+    </script>
+    <br>
+    <footer class="footer1">
+        <p>Email:gyuriczaa@kkszki.hu</p>
+        <p>ig:andras.gyuricza</p>
+      </footer>  
+
+</body>
+</html>

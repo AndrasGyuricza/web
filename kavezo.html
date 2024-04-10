@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Borsod Café</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Café Rudi </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#főoldal">Főoldal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#étlap">Étlap</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#kapcsolat">Kapcsolat</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="main-content" class="container py-5">
+    <section id="home" class="text-center">
+        <img src="cafe-1869656_1280.jpg" class="img-fluid rounded"
+</header>
+
+<main>
+  <section id="főoldal" class="jumbotron text-center">
+    <div class="container">
+      <h1 class="display-4">Üdvözöljük a Café Rudi nevében!</h1>
+    </div>
+  </section>
+
+  <section id="menu" class="mt-5">
+    <h2 class="text-center">Étlap</h2>
+    <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card bg-warning">
+                <div class="card-body">
+                    <h5 class="card-title">Kávék</h5>
+                    <p class="card-text">Espresso,Capuccino,Hosszú kávé,Latte,Jeges kávé</p>
+                    <p class="card-text">Ár: 500Ft,600Ft,700ft,800Ft,900Ft</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card bg-success">
+                <div class="card-body">
+                    <h5 class="card-title">Desszertek</h5>
+                    <p class="card-text">Dobos torta,Csokis Fánk,Francia Krémes,Isler</p>
+                    <p class="card-text">Ár: 500ft,500ft,600ft,300ft</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card bg-info">
+                <div class="card-body">
+                    <h5 class="card-title">Különlegesség</h5>
+                    <p class="card-text">Túrórudis Álom,Túrórudis Croissant,Túrórudis Fagyi(Minden 100. vendég ingyen választhat eggyet)</p>
+                    <p class="card-text">Ár: 1000ft,1000ft,1000ft</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <section id="kapcsolat" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Kapcsolat</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form>
+            <div class="form-group">
+              <label for="name">Név</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail cím</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="message">Üzenet</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Küldés</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="bg-dark text-white text-center py-3">
+  <p> 2024 Café Rudi</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
